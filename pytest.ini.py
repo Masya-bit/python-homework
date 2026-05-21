@@ -1,0 +1,11 @@
+[pytest]
+testpaths = .
+python_files = test_*.py
+python_classes = Test*
+python_functions = test_*
+
+addopts = -v --tb=short --strict-markers
+#-p no:cacheprovider
+markers =
+    positive: Позитивные тесты
+    negative: Негативные тесты
