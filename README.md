@@ -2,7 +2,7 @@
 
 ## Запуск теста, для формирования отчета
 - Для формирования Allure-отчёта используется команда "--alluredir"
-- pytest tests/test_slow_calculator.py --alluredir=allure-results
+- pytest test_slow_calculator.py --alluredir=allure-results
 
 ## Просмотр отчета
 - После того как тесты выполнены и результаты сохранены в папку allure-results, отчёт можно просмотреть двумя способами.
