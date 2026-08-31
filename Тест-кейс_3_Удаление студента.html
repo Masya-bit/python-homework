@@ -1,0 +1,11 @@
+
+Название: 	Удаление студента из таблицы students
+Тип: Позитивный
+Метод: DELETE
+Шаги:
+1 - Выполнить INSERT: INSERT INTO students (name, age) VALUES ('Петр', 22)
+ОР: Запись добавлена, получен id
+2 - Выполнить DELETE: DELETE FROM students WHERE id = полученный_id
+ОР: Запись удалена, коммит успешен
+3 - Выполнить SELECT: SELECT id FROM students WHERE id = полученный_id
+ОР: Запрос возвращает None (запись отсутствует)

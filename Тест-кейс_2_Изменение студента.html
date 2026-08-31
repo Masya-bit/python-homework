@@ -1,0 +1,13 @@
+
+Название: 	Изменение возраста студента в таблице students
+Тип: Позитивный
+Метод: UPDATE
+Шаги:
+1 - Выполнить INSERT: INSERT INTO students (name, age) VALUES ('Иван', 20)
+ОР: Запись добавлена, получен id
+2 - Выполнить UPDATE: UPDATE students SET age = 21 WHERE id = полученный_id
+ОР: Запись обновлена, коммит успешен
+3 - Выполнить SELECT: SELECT age FROM students WHERE id = полученный_id
+ОР: Значение age равно 21
+4 - Выполнить DELETE: DELETE FROM students WHERE id = полученный_id
+ОР: Запись удалена, коммит успешен
